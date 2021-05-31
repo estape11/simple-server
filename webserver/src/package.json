@@ -1,0 +1,34 @@
+{
+  "name": "webserver",
+  "version": "0.0.1",
+  "description": "Server HTTP/HTTPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js --test",
+    "start": "node index.js --conf_file server.conf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estape11"
+  },
+  "keywords": [
+    "server",
+    "web",
+    "secure"
+  ],
+  "author": "estape11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estape11"
+  },
+  "homepage": "https://github.com/estape11",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "ddos": "^0.2.1",
+    "express": "^4.17.1",
+    "express-force-ssl": "^0.3.2",
+    "helmet": "^4.5.0",
+    "minimist": "^1.2.5",
+    "path": "^0.12.7"
+  }
+}
